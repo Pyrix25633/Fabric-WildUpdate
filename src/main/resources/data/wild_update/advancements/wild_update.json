@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_update:mud_block"
+    },
+    "title": "Wild Update",
+    "description": "A new world opens with The Wild Update Mod!",
+    "frame": "task",
+    "show_toast": false,
+    "annouce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/sculk_sensor_bottom.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wild_update:mud_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

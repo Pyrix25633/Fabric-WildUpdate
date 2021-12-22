@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_update:hollow_birch_log"
+    },
+    "title": "That strange log",
+    "description": "Craft an Hollow Birch Log",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "wild_update:wild_update",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wild_update:hollow_birch_log"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
