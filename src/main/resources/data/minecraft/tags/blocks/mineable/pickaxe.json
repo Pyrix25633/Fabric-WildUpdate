@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wild_update:mud_bricks",
+    "wild_update:mud_brick_stairs",
+    "wild_update:mud_brick_slab",
+    "wild_update:mud_brick_wall"
+  ]
+}

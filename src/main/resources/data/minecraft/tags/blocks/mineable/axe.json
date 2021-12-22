@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "wild_update:mangrove_log",
+    "wild_update:stripped_mangrove_log",
+    "wild_update:mangrove_wood",
+    "wild_update:stripped_mangrove_wood",
+    "wild_update:mangrove_planks",
+    "wild_update:mangrove_stairs",
+    "wild_update:mangrove_slab",
+    "wild_update:mangrove_fence",
+    "wild_update:mangrove_fence_gate",
+    "wild_update:mangrove_button",
+    "wild_update:mangrove_pressure_plate",
+    "wild_update:mangrove_door",
+    "wild_update:mangrove_trapdoor",
+    "wild_update:hollow_birch_log",
+    "wild_update:stripped_hollow_birch_log"
+  ]
+}
