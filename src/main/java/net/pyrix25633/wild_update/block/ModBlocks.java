@@ -2,9 +2,7 @@ package net.pyrix25633.wild_update.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -119,8 +117,8 @@ public class ModBlocks {
             new SculkBlock(FabricBlockSettings.of(Material.SCULK)
                     .strength(0.5f, 1.2f)
                     .sounds(BlockSoundGroup.SCULK_SENSOR)));
-    public static final Block SCULK_CATALIST = registerBlock("sculk_catalist",
-            new CatalistBlock(FabricBlockSettings.of(Material.SCULK)
+    public static final Block SCULK_CATALYST = registerBlock("sculk_catalyst",
+            new CatalystBlock(FabricBlockSettings.of(Material.SCULK)
                     .strength(1f, 1.2f)
                     .sounds(BlockSoundGroup.SCULK_SENSOR)));
     public static final Block SCULK_SHRIEKER = registerBlock("sculk_shrieker",
@@ -148,6 +146,13 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.CROP).nonOpaque().noCollision()));
     public static final Block POTTED_DICHONDRA = registerOnlyBlock("potted_dichondra",
             new FlowerPotBlock(ModBlocks.DICHONDRA, FabricBlockSettings.copy(Blocks.POTTED_DANDELION)));
+    public static final Block NEMESIA_KLM = registerBlock("nemesia_klm",
+            new ShortFlowerBlock(StatusEffects.GLOWING,200,
+                    FabricBlockSettings.copy(Blocks.DANDELION)
+                            .breakInstantly()
+                            .sounds(BlockSoundGroup.CROP).nonOpaque().noCollision()));
+    public static final Block POTTED_NEMESIA_KLM = registerOnlyBlock("potted_nemesia_klm",
+            new FlowerPotBlock(ModBlocks.NEMESIA_KLM, FabricBlockSettings.copy(Blocks.POTTED_DANDELION)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

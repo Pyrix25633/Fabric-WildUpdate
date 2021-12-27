@@ -21,11 +21,13 @@
   "block.wild_update.mangrove_roots": "Mangrove Roots",
   "block.wild_update.mangrove_propagule": "Mangrove Propagule",
   "block.wild_update.sculk_block": "Sculk Block",
-  "block.wild_update.sculk_catalist": "Sculk Catalist",
+  "block.wild_update.sculk_catalyst": "Sculk Catalyst",
   "block.wild_update.sculk_shrieker": "Sculk Shrieker",
   "block.wild_update.sculk_vein": "Sculk Vein",
   "block.wild_update.hollow_birch_log": "Hollow Birch Log",
   "block.wild_update.stripped_hollow_birch_log": "Stripped Hollow Birch Log",
   "block.wild_update.dichondra": "Dichondra",
-  "block.wild_update.potted_dichondra": "Potted Dichondra"
+  "block.wild_update.potted_dichondra": "Potted Dichondra",
+  "block.wild_update.nemesia_klm": "Nemesia Klm",
+  "block.wild_update.potted_nemesia_klm": "Potted Nemesia Klm"
 }
